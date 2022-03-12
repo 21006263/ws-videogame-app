@@ -1,0 +1,9 @@
+export const GET_VIDEOGAME = "GET_VIDEOGAME";
+export const GET_DETAILS = "GET_DETAILS";
+export const SEARCH_VIODEOGAME = "SEARCH_VIODEOGAME";
+export const GET_GENRES = "GET_GENRES";
+export const FILTER_GENRES = "FILTER_GENRES";
+export const CREATE_VIDEOGAME = "CREATE_VIDEOGAME";
+export const SELECT_DB = "SELECT_DB";
+//!export const GET_All =  "http://localhost:3001/Videogame/getAll_ByName"
+//!export const GET_BY_NAME =  "http://localhost:3001/Videogame/getAll_ByName?name="

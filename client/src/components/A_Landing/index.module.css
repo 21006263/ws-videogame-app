@@ -1,0 +1,60 @@
+.imgFondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width : 100%;
+    justify-content: center;
+    min-height: 100vmin;
+    position: fixed;
+    display: block;
+    height: 105%;
+    top: -5px;;
+    bottom:-5px;
+    z-index: -1;
+}
+
+
+ .button{
+     margin-top: 200px;
+   margin-left: 600px;
+    background-color: rgb(196, 7, 7);
+    color: rgb(247, 241, 241);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 23px;
+    
+    border: 2px solid;
+    border-collapse: calc(10px);
+     /*box-shadow: 0px 0px 15px 15px rgb(196, 7, 7); 
+    /* -webkit-box-shadow: 0px 0px 15px 15px rgb(196, 7, 7); */
+   
+-webkit-border-radius:10%;
+ }
+ .imgbutton{
+   height: 5rem;
+   width: 13rem;
+
+ }
+ .bienvenida{
+   text-align: center;
+   margin-left: 200px;
+margin-top: -1px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 50px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+text-shadow:0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+ }
+
+ 

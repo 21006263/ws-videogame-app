@@ -1,0 +1,38 @@
+
+  
+  .macro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display:flex;
+    justify-content: space-around;
+    position: static;
+    flex-wrap: wrap;
+    min-height:445px;
+  }
+  
+  .btn_box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+  }
+  

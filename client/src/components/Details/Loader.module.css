@@ -1,0 +1,15 @@
+ .loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    padding: 20px;
+    /* margin-top:; */
+     left: 0px;
+    top: 0px;
+    opacity: .8;
+  }
+  
+
+
