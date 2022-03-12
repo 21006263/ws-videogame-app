@@ -57,8 +57,11 @@ const {conn} = require('./src/db.js');
 //     console.log('%s listening at 3001'); // eslint-disable-line no-console
 //   });
 // });
+
+
+let port = process.env.PORT || 3001;
 conn.sync({ force: false }).then(() => {
-  server.listen(process.env.PORT, () => {
+  server.listen(port, () => {
     console.log("%s listening at 3001"); // eslint-disable-line no-console
   });
 });
