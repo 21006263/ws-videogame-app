@@ -27,7 +27,7 @@ const { conn, /*Genre*/ } = require('./src/db.js');
 
 
 // Syncing all the models at once.
-conn.sync({ force: true }).then( /*async*/ () => {
+conn.sync({ force: false }).then( /*async*/ () => {
 
 // //Precargar los generos
 // const verification = await Genre.findAll()
