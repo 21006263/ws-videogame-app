@@ -45,7 +45,7 @@ export default function SearchBar({
 
 
 
-    
+
     <div>
     <form className={`${styles.form}`} onSubmit={submitHandler}>
       <input placeholder="search" 
